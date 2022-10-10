@@ -21,14 +21,12 @@ export const FormularioCheckout = ({generarOrden}) => {
         const total = getTotal()
         const data = { datos, items, dia, total}
         generarOrden(data)
-        console.log(data)
     }
     
     const manejarInputChange = (e) => {
         setDatos(({...datos,
             [e.target.name]: e.target.value
     }))
-        console.log(datos)
     }
 
     const volverAlCarrito = () =>{
