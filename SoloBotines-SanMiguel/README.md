@@ -1,7 +1,7 @@
 # SOLO BOTINES
-Guia de instalacion de Ecommerce
+Guía de instalación de Ecommerce
 
-## INSTALACION
+## INSTALACIÓN
 
 Descargar el repositorio en formato zip
 
@@ -17,7 +17,7 @@ _4- Luego ejecutar:_
 
 ### `npm start`
 
-## Instalacion con git clone
+## INSTALACIÓN CON GIT CLONE
 
 Se puede clonar el repositorio ingresando a una terminal y ejecutando:
 
@@ -27,10 +27,10 @@ Luego continuar con el paso 3 mencionado anteriormente
 
 ## DESPLIEGUE
 
-El proyecto fue desplegado en Vercel para evitar la descarga del mismo y poder ejecutarlo instantaneamente
+El proyecto fue desplegado en Vercel para evitar la descarga del mismo y poder ejecutarlo instantáneamente
 
 https://solobotines.vercel.app/
 
-# CONSTRUIDO CON
+## CONSTRUIDO CON
 
 #REACT 
