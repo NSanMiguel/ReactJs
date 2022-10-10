@@ -16,7 +16,6 @@ const CheckOut = () => {
             const col = collection(db,"Orden")
             const orden = await addDoc(col, data)
             setOrdenId(orden.id)
-            console.log(ordenId)
             clearAll()
         }catch(error) {
             console.log(error)
