@@ -1,7 +1,0 @@
-Se utiliza npm run start para incializar el programa.
-
-El programa es un E-Commerce de botines, el mismo esta conformado por 6 pares de botines de 2 marcas cada uno.
-
-Se navega entre distintas marcas, se puede ver los detalles de cada uno y aumentar o disminui la cantidad a comprar.
-
-Se utilizo npm react-router-dom para navegar entre penstañas.
