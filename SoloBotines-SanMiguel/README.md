@@ -17,6 +17,20 @@ _4- Luego ejecutar:_
 
 ### `npm start`
 
+## Instalacion con git clone
+
+Se puede clonar el repositorio ingresando a una terminal y ejecutando:
+
+### `git clone https://github.com/NSanMiguel/ReactJs.git`
+
+Luego continuar con el paso 3 mencionado anteriormente
+
+## DESPLIEGUE
+
+El proyecto fue desplegado en Vercel para evitar la descarga del mismo y poder ejecutarlo instantaneamente
+
+https://solobotines.vercel.app/
+
 # CONSTRUIDO CON
 
 #REACT 
