@@ -1,13 +1,12 @@
 .icon{
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-}
-
-.cart{
-    left: auto;
+    margin-right: 50px;
+    padding-left: 0px;
 }
 
 .cantidad{
-    margin-left: 80px;
+    width: 10px;
     color: aliceblue;
+    margin-left: 60%;
 }

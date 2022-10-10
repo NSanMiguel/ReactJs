@@ -8,16 +8,15 @@
     border:none;
     width: 80%;
     margin-left: 10%;
-    background-color: #EDE0E0;
+    background-color: white;
 }
 
 .title{
-    padding-left: 25%;
-    padding-top: 15px;
+    padding-left: 30%;
+    padding-top: 13px;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px;
     color: black;
-    font-size:x-large;
+    font-size: xx-large;
 }
 
 .precio{
@@ -25,20 +24,20 @@
     text-transform: uppercase;
     color: black;
     font-size:50px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .detalles{
    padding-left: 5%;
     text-transform: uppercase;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Exo 2', sans-serif;
     text-align: justify;
 }
 
 .btn{
     margin-left: 30%;
     width: 25%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Exo 2', sans-serif;
     background-color: #DA6363;
 }

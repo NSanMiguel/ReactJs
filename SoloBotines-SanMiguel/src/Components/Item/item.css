@@ -16,27 +16,15 @@
 }
 
 .font{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Exo 2', sans-serif;
     color:black
 }
 
-
-.button{
-    width: 150px;
-    align-items: center;
-    margin-bottom: 5%;
-    margin-left: 15%;
-    background-color: white;
-    color:black;
-    border: none;
-    
-}
 
 .cardtext{
     width: 250px;
     margin-top: 10px;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px;
 }
 

@@ -8,8 +8,11 @@ import { Cart } from './Cart/Cart';
 import CheckOut from './CheckOut/CheckOut';
 
 
+
+
 export function App() {
   return (
+    <>
     <BrowserRouter>
       <NavBar/>
       <Routes>
@@ -20,6 +23,7 @@ export function App() {
         <Route path="/checkout" element={<CheckOut/>}></Route>
       </Routes>
     </BrowserRouter>
+    </>
   );
 }
 

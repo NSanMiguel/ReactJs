@@ -3,6 +3,7 @@ import db from '../../services/firebase';
 import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import { ItemDetail } from '../ItemDetail/ItemDetail';
+import { Spinner } from '../Spinner/Spinner';
 
 export const ItemDetailContainer = () => {
     const [botin, setBotines] = useState([{}])
@@ -28,6 +29,6 @@ export const ItemDetailContainer = () => {
 
 
     return(
-       cargando ? <h1> Cargando ... </h1> : <ItemDetail item={botin}/>
+       cargando ? <Spinner/> : <ItemDetail item={botin}/>
     )
 }

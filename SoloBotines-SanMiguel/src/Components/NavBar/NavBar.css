@@ -1,7 +1,13 @@
-nav{
+.nav{
+    display: flex;
     background-color: #DA6363;
+    
 }
 
 .icon{
     width: 120px;
+}
+
+.inicio{
+    margin-right: 50%;
 }

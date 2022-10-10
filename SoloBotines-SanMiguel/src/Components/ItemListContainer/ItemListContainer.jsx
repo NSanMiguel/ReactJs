@@ -1,10 +1,9 @@
-//import { ItemCount } from "../ItemCount/ItemCount"
 import React, {useEffect,useState} from "react"
 import { ItemList } from "../ItemList/ItemList"
-//import { botinesData } from "../botinesData"
 import { useParams } from "react-router-dom"
 import db from "../../services/firebase"
 import { collection, getDocs, query, where } from "firebase/firestore"
+import { Spinner } from "../Spinner/Spinner"
 
 export const  ItemListContainer = () =>     {
     const [botines, setBotines] = useState([])
@@ -12,22 +11,6 @@ export const  ItemListContainer = () =>     {
 
     const {marca} = useParams()
     
-
-    //    const dataBotines = new Promise ((res,rej)=> {
-    //        if(marca){
-    //            setTimeout(() => res(botinesData.filter(botin => botin.marca === marca))
-    //            , 2000);
-    //        }else{
-    //            setTimeout(() => res(botinesData)
-    //            , 2000);
-    //        }
-    //    })
-    //    dataBotines.then((res)=> {setBotines(res) 
-    //        setCargando(false)})
-    //    .catch((err)=> console.log(err))
-//
-    //},[marca])
-//
     const getData = async(marcas) =>{
         try{
         setCargando(true)
@@ -49,6 +32,6 @@ export const  ItemListContainer = () =>     {
     
     
     return (
-     cargando ? <h1> Cargando ... </h1> : <ItemList list={botines}/>
+     cargando ? <Spinner/> : <ItemList list={botines}/>
     )
 }

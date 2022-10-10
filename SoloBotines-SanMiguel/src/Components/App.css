@@ -1,8 +1,9 @@
-. {
+.{
     margin: 0;
     padding: 0;
-
+    background-color: whitesmoke;
 }
+
 
 .div1 {
     width: 100%;

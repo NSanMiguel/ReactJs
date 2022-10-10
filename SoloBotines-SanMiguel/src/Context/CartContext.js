@@ -9,7 +9,7 @@ const CartProvider = (props) => {
         if(isInCart(botin.id)){
             const cartAux = cart.map(producto => {
                 if(producto.botin.id === botin.id) {
-                    producto.botin.cantidad = producto.botin.cantidad + botin.cantidad
+                        producto.botin.cantidad = producto.botin.cantidad + botin.cantidad
                 } 
                 return producto
 
@@ -22,7 +22,7 @@ const CartProvider = (props) => {
     }
 
     const isInCart = (id) =>{
-        return cart.find(producto => (producto.botin.id === id) && (producto.botin.cantidad < producto.botin.stock))
+        return cart.find(producto => (producto.botin.id === id))
     }
 
     const removeItem = (id) => {

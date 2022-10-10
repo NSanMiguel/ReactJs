@@ -8,11 +8,8 @@ export function CartWidget(){
 
     return cart.length > 0 ? 
         <Link to={"/cart"}>
-            <div className="cart" id="navbarColor01">
-                <FaOpencart className='icon'/>
-                <span className='cantidad'>{getCantidad()}</span>
-                
-            </div>
+            <FaOpencart className='icon'/>
+            <span className='cantidad'> {getCantidad()} </span>
         </Link>
         :
         <></>

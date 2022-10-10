@@ -1,6 +1,5 @@
 import React,{useState, useContext} from 'react'
 import { ItemCount } from "../ItemCount/ItemCount";
-import { Link } from "react-router-dom"
 import { CartContext } from '../../Context/CartContext';
 import './ItemDetail.css';
 
@@ -31,7 +30,7 @@ export const ItemDetail = ({item})=>{
         <div className="card-body">
                 <p className="card-text precio"> $ {precio} </p>
                 <p className="card-text detalles"> Stock: {stock} </p>
-                {cantidad > 0 ? <button className=' btn btn-primary'><Link className="nav-link" to="/cart" > Ir al carrito </Link> </button> : <ItemCount initial={1} stock={item.stock} onAdd={onAdd} />}
+                {cantidad === stock ? <button className='btn'> SIN STOCK </button> : <ItemCount initial={1} stock={item.stock} onAdd={onAdd} />}
                 <p className="card-text detalles"> {detalles} </p>
                 
         </div>

@@ -3,11 +3,12 @@ import { CartContext } from '../../Context/CartContext';
 import { CardCart } from '../CardCart/CardCart';
 import { CartVacio } from './CartVacio/CartVacio';
 import { Link } from 'react-router-dom';
+import './Cart.css'
 
 export const Cart = () => {
     const {cart,getTotal,clearAll} = useContext(CartContext)
     return cart.length > 0 ? (
-        <div>
+        <div className='container-fluid'>
              <h1> SU CARRITO DE COMPRAS</h1>
              <div className='card-container row'>
                 {cart.map((carrito,indice)=> {
